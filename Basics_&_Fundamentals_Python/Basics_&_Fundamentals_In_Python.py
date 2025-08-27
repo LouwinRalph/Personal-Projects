@@ -113,3 +113,4 @@ print(squares)
 # ➤ Why: Cleaner than using range(len(...)).
 for index, fruit in enumerate(fruits):
     print(f"{index}: {fruit}")
+
