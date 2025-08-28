@@ -5,6 +5,7 @@
 # ➤ Why: Essential for debugging and user interaction.
 print("Hello, World!")  # Prints a greeting message
 
+print("2. Variables & Data Types ------------------------------------")
 # 2️⃣ VARIABLES & DATA TYPES
 # ➤ What: Store data in memory using names.
 # ➤ Why: Lets you reuse and manipulate values easily.
@@ -115,5 +116,6 @@ print(squares)
 # ➤ Why: Cleaner than using range(len(...)).
 for index, fruit in enumerate(fruits):
     print(f"{index}: {fruit}")
+
 
 
