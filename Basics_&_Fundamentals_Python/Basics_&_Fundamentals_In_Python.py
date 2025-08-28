@@ -15,6 +15,7 @@ height = 1.1           # Float: decimal number
 is_active = True        # Boolean: True or False
 skills = ["Python", "HTML", "PHP", "JAVA"]  # List: collection of items
 
+print("3. Conditional Statements ------------------------------------")
 # 3️⃣ CONDITIONAL STATEMENTS
 # ➤ What: Executes code based on conditions.
 # ➤ Why: Adds logic and decision-making to programs.
@@ -116,6 +117,7 @@ print(squares)
 # ➤ Why: Cleaner than using range(len(...)).
 for index, fruit in enumerate(fruits):
     print(f"{index}: {fruit}")
+
 
 
 
