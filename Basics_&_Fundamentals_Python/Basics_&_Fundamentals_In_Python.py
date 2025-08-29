@@ -26,6 +26,7 @@ elif age == 18:
 else:
     print("Minor")  # Runs if age is less than 18
 
+print("4. LOOPS ------------------------------------")
 # 4️⃣ LOOPS
 # ➤ What: Repeats code multiple times.
 # ➤ Why: Useful for processing lists, automation, and repetition.
@@ -40,6 +41,7 @@ while counter < 3:
     print("Counter:", counter)
     counter += 1  # Increments counter
 
+print("5. FUNCTIONS ------------------------------------
 # 5️⃣ FUNCTIONS
 # ➤ What: Blocks of reusable code.
 # ➤ Why: Makes code organized and avoids repetition.
@@ -117,6 +119,7 @@ print(squares)
 # ➤ Why: Cleaner than using range(len(...)).
 for index, fruit in enumerate(fruits):
     print(f"{index}: {fruit}")
+
 
 
 
