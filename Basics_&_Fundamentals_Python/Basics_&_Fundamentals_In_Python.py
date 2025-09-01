@@ -41,7 +41,7 @@ while counter < 3:
     print("Counter:", counter)
     counter += 1  # Increments counter
 
-print("5. FUNCTIONS ------------------------------------
+print("5. FUNCTIONS ------------------------------------")
 # 5️⃣ FUNCTIONS
 # ➤ What: Blocks of reusable code.
 # ➤ Why: Makes code organized and avoids repetition.
@@ -50,6 +50,7 @@ def greet(user):
 
 print(greet(name))  # Calls the function with 'name'
 
+print("6. ARRAY LISTS ------------------------------------")
 # 6️⃣ LISTS (Arrays)
 # ➤ What: Ordered collection of items.
 # ➤ Why: Stores multiple values in one variable.
@@ -58,22 +59,25 @@ fruits.append("mango")       # Adds item to list
 print(fruits[0])             # Accesses first item
 print(len(fruits))           # Gets number of items
 
+print("7. DICTIONARIES ------------------------------------")
 # 7️⃣ DICTIONARIES
 # ➤ What: Key-value pairs.
 # ➤ Why: Great for storing structured data.
 person = {
     "name": "Louwin",
     "age": 25,
-    "location": "Imus"
+    "location": "Mall"
 }
 print(person["location"])    # Accesses value by key
 
+print("8. Looping with index ------------------------------------")
 # 8️⃣ LOOPING WITH INDEX
 # ➤ What: Combines loop with position tracking.
 # ➤ Why: Useful when you need both item and its index.
 for i in range(len(fruits)):
     print(f"Fruit {i}: {fruits[i]}")
 
+print("9. EXCEPTION HANDLING ------------------------------------")
 # 9️⃣ EXCEPTION HANDLING
 # ➤ What: Catches and handles errors.
 # ➤ Why: Prevents program from crashing unexpectedly.
@@ -82,6 +86,7 @@ try:
 except ZeroDivisionError:
     print("Cannot divide by zero!")  # Handles the error gracefully
 
+print("10. Classes & Objects ------------------------------------")
 # 🔟 CLASSES & OBJECTS
 # ➤ What: Blueprint for creating objects (OOP).
 # ➤ Why: Organizes code around real-world entities.
@@ -96,29 +101,34 @@ class Student:
 s1 = Student("Louwin", "A")  # Creates a student object
 s1.display()                 # Calls method to show info
 
+print("11. Importing Modules ------------------------------------")
 # 1️⃣1️⃣ IMPORTING MODULES
 # ➤ What: Brings in external tools/functions.
 # ➤ Why: Extends Python’s capabilities.
 import math
 print(math.sqrt(16))  # Uses math module to get square root
 
+print("12. File Handling ------------------------------------")
 # 1️⃣2️⃣ FILE HANDLING
 # ➤ What: Reads and writes files.
 # ➤ Why: Useful for saving data or reading input.
 with open("sample.txt", "w") as file:
     file.write("This is a sample file.")  # Writes to file
 
+print("13. List Comprehension ------------------------------------")
 # 1️⃣3️⃣ LIST COMPREHENSION
 # ➤ What: Short way to create lists.
 # ➤ Why: Makes code cleaner and faster.
 squares = [x**2 for x in range(5)]  # Creates list of squares
 print(squares)
 
+print("14. Enumerate ------------------------------------")
 # 1️⃣4️⃣ ENUMERATE
 # ➤ What: Adds index to loop items.
 # ➤ Why: Cleaner than using range(len(...)).
 for index, fruit in enumerate(fruits):
     print(f"{index}: {fruit}")
+
 
 
 
