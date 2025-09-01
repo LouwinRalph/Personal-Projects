@@ -1,12 +1,48 @@
 #NOT FINISHED, I MIGHT ADD MORE DETAILS TO EACH NUMBER!!
 
-# 1️⃣ PRINTING
+# 1️⃣ PRINTING #######################################################################################
 # ➤ What: Displays output to the console.
 # ➤ Why: Essential for debugging and user interaction.
-print("Hello, World!")  # Prints a greeting message
+
+print("Hello, World!")  # Basic greeting
+
+# ➤ Printing multiple items
+print("Name:", "Lou", "Age:", 19)  # Outputs multiple values separated by spaces
+
+# ➤ Using variables
+name = "Lou"
+age = 25
+print("User:", name, "| Age:", age)
+
+# ➤ String concatenation
+print("Welcome " + name + "!")  # Combines strings using +
+
+# ➤ f-strings (Python 3.6+)
+print(f"Hello {name}, you are {age} years old.")  # Cleaner and more readable
+
+# ➤ Escape characters
+print("Line1\nLine2")  # \n creates a new line
+print("Tab\tSeparated")  # \t adds a tab space
+
+# ➤ Printing special characters
+print("She said, \"Python is awesome!\"")  # Escaping quotes
+print("Backslash: \\")  # Prints a single backslash
+
+# ➤ Custom separator and end
+print("Python", "HTML", "PHP", sep=" | ")  # Custom separator
+print("Loading", end="...")  # Keeps cursor on same line
+
+# ➤ Printing lists and dictionaries
+skills = ["Python", "HTML", "PHP"]
+user_info = {"name": "Lou", "age": 25}
+print("Skills:", skills)
+print("User Info:", user_info)
+
+# ➤ Debugging tip
+print("DEBUG:", name, age, skills)  # Quick way to check variable states
 
 print("2. Variables & Data Types ------------------------------------")
-# 2️⃣ VARIABLES & DATA TYPES
+# 2️⃣ VARIABLES & DATA TYPES ############################################################################################
 # ➤ What: Store data in memory using names.
 # ➤ Why: Lets you reuse and manipulate values easily.
 name = "Lou"         # String: text data
@@ -128,6 +164,7 @@ print("14. Enumerate ------------------------------------")
 # ➤ Why: Cleaner than using range(len(...)).
 for index, fruit in enumerate(fruits):
     print(f"{index}: {fruit}")
+
 
 
 
