@@ -1,4 +1,4 @@
-#NOT FINISHED, I MIGHT ADD MORE DETAILS TO EACH NUMBER!!!!!!
+#NOT FINISHED, I MIGHT ADD MORE DETAILS TO EACH NUMBER!!!!!!!
 
 # 1️⃣ PRINTING #######################################################################################
 # ➤ What: Displays output to the console.
@@ -164,6 +164,7 @@ print("14. Enumerate ------------------------------------")
 # ➤ Why: Cleaner than using range(len(...)).
 for index, fruit in enumerate(fruits):
     print(f"{index}: {fruit}")
+
 
 
 
